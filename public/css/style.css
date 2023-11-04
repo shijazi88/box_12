@@ -1,0 +1,1009 @@
+/*
+Items Name : Ales
+Author : Ngetemplates
+-------------------------------- */
+/* ------------------------------
+  Import Google Web Font
+---------------------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* ------------------------------
+  General
+---------------------------------*/
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  background: #090909;
+  color: #dddddd;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Heebo', sans-serif;
+  padding: 0;
+  margin: 0;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 56px;
+  line-height: 65px;
+  font-weight: 700;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 55px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+h5 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+h6 {
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: #464646;
+}
+
+a:hover {
+  color: #333;
+}
+
+p {
+  margin: 5px 0 15px;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+/* ------------------------------
+  loader
+---------------------------------*/
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background-color: #090909;
+}
+
+.loader .loading {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.loader .loading .aloader {
+  background: #B89F65;
+}
+
+/* ------------------------------
+  button
+---------------------------------*/
+.button {
+  padding: 12px 30px;
+  background: #B89F65;
+  color: #090909;
+  font-size: 13px;
+  letter-spacing: 1px;
+  border-radius: 0;
+  border: 0;
+  transition: 0.2s;
+  font-weight: 600;
+}
+
+.button:hover {
+  background: #ffffff;
+  color: #090909;
+  border-color: transparent;
+}
+
+/* ------------------------------
+  navbar
+---------------------------------*/
+.navbar {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+  padding: 0;
+  text-align: center;
+}
+.navbar .container {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #B89F65;
+}
+.navbar .navbar-brand {
+  text-align: left;
+  width: 18%;
+}
+.navbar .navbar-brand img {
+  height: 45px;
+  width: auto;
+  position: relative;
+  top: -4px;
+}
+.navbar .navbar-brand:hover {
+  color: #ffffff;
+}
+.navbar .navbar-toggler {
+  padding: 0;
+}
+.navbar .navbar-toggler i {
+  font-size: 32px;
+  color: #fff;
+}
+.navbar .navbar-toggler:focus {
+  box-shadow: none;
+}
+.navbar .navbar-collapse {
+  position: relative;
+  width: 60%;
+  text-align: center;
+  left: -10px;
+}
+.navbar .navbar-nav li {
+  padding: 0 10px;
+}
+.navbar .navbar-nav li a {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.navbar .navbar-nav li a:hover {
+  color: #B89F65;
+}
+.navbar .navbar-nav li .button {
+  color: #fff;
+  margin-top: -3px;
+  display: inline-block;
+  margin-right: -15px;
+}
+.navbar .button-navbar {
+  width: 20%;
+  float: right;
+  text-align: right;
+}
+.navbar .button-navbar li {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.navbar-fixed {
+  background: #090909;
+}
+
+/* ------------------------------
+  intro
+---------------------------------*/
+.intro {
+  padding-top: 210px;
+  padding-bottom: 0;
+}
+.intro .content-text {
+  position: relative;
+  top: -35px;
+}
+.intro .entry {
+  padding: 0 100px;
+}
+.intro .entry .button {
+  margin-top: 20px;
+}
+.intro span {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  display: block;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #B89F65;
+}
+
+/* ------------------------------
+  about
+---------------------------------*/
+.about {
+  padding-top: 120px;
+}
+.about h2 {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.about .content-left img {
+  margin-top: 75px;
+}
+.about .content-right img {
+  margin-bottom: 20px;
+}
+.about .content-right .button {
+  margin-top: 20px;
+}
+
+/* ------------------------------
+gallery
+---------------------------------*/
+.gallery {
+  padding-top: 120px;
+}
+.gallery h2 {
+  text-align: center;
+  background: #090909;
+  display: inline-block;
+  padding: 25px;
+  margin: auto;
+  left: 50%;
+  position: relative;
+  z-index: 1;
+  transform: translate(-50%);
+}
+.gallery .divider {
+  height: 5px;
+  width: 100%;
+  background: #B89F65;
+  position: relative;
+  top: -84px;
+}
+
+/* ------------------------------
+  pricing
+---------------------------------*/
+.pricing {
+  padding-top: 140px;
+}
+.pricing .content {
+  border: 2px solid #B89F65;
+  padding: 40px;
+}
+.pricing .content ul {
+  margin-bottom: 30px;
+}
+.pricing .content ul li {
+  padding: 8px 0;
+}
+.pricing .content ul li i {
+  color: #B89F65;
+  margin-right: 15px;
+}
+
+/* ------------------------------
+  contact
+---------------------------------*/
+.contact {
+  padding-top: 120px;
+}
+.contact .icon {
+  float: left;
+  margin-right: 20px;
+}
+.contact .text {
+  overflow: hidden;
+}
+.contact .content-map {
+  margin-bottom: 40px;
+}
+.contact i {
+  height: 60px;
+  width: 60px;
+  background: #B89F65;
+  text-align: center;
+  line-height: 60px;
+  color: #090909;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.contact h5 {
+  margin-top: 11px;
+}
+.contact .content-map iframe {
+  width: 100%;
+}
+.contact .open {
+  background: #B89F65;
+  color: #090909;
+  height: 100%;
+  text-align: center;
+  border: 25px double #090909;
+  padding-top: 18%;
+}
+.contact .open h3 {
+  color: #090909;
+}
+.contact .open span {
+  font-size: 22px;
+  margin-bottom: 30px;
+  display: block;
+}
+
+/* ------------------------------
+  testimonial
+---------------------------------*/
+.testimonial {
+  padding: 150px 0;
+}
+.testimonial .swiper-button-next, .testimonial .swiper-button-prev {
+  color: #B89F65;
+}
+.testimonial .swiper-button-next::after, .testimonial .swiper-button-prev::after {
+  font-size: 30px;
+}
+
+.testimonial .swiper .content {
+  text-align: center;
+  padding: 0 25%;
+  color: #fff;
+}
+
+.testimonial .swiper .content span {
+  font-weight: 600;
+  font-size: 14px;
+  position: relative;
+  color: #ddd;
+}
+
+.testimonial .swiper .content h5 {
+  font-size: 16px;
+  color: #fff;
+}
+
+/* ------------------------------
+  Home Page CSS start (2023-11-03)
+---------------------------------*/
+:root {
+  --primary: #2E3642;
+  --global-color-text: #1D242D;  
+  --global-accent-color: #B89F65;
+  --global-banner-color: #f9f9f9;
+  --global-font-heading2: 45px;
+  --global-font-heading3: 23px;
+  --global-font-heading4: 34px;
+  --global-font-heading5: 36px;
+  --global-font-heading6: 50px;
+  --global-font-para: 20px;
+  --global-font-para1: 18px;
+  --global-font-para2: 14px;
+  --global-font-weight1: 300;
+  --global-font-weight2: 400;
+}
+.bg-white-color{
+  background-color: white;
+}
+section{
+  transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;
+}
+.mt-160{
+  margin-top: 160px;
+}
+.mt-20{
+  margin-top: 20px;
+}
+.mb-20{
+  margin-bottom: 20px;
+}
+.mb-15{
+  margin-bottom: 15px;
+}
+.mb-27{
+  margin-bottom: 27px;
+}
+.mr-20{
+  margin-right: 20px;
+}
+.pb-60{
+  padding-bottom: 60px;
+}
+.pt-60{
+  padding-top: 60px;
+}
+.pt-90{
+  padding-top: 90px;
+}
+.p-10{
+  padding:10px
+}
+.hero{
+  padding-top: 200px;  
+}
+.px-50{
+  padding: 0 50px;
+}
+.custom-color1{
+  color: var(--primary);
+}
+.custom-color2{
+  color: var(--global-accent-color);
+}
+.custom-font18{
+  font-size: var(--global-font-para1);
+}
+.custom-font14{
+  font-size: var(--global-font-para2);
+}
+.custom-font20{
+  font-size: var(--global-font-para);
+}
+.custom-font34{
+  font-size: var(--global-font-heading4);
+}
+.custom-font36{
+  font-size: var(--global-font-heading5);
+}
+.custom-font45{
+  font-size: var(--global-font-heading2);
+}
+.custom-font50{
+  font-size: var(--global-font-heading6);
+}
+.section-title h2{
+  color: var(--primary);
+}
+.custon-weight400{
+  font-weight: var(--global-font-weight2);
+}
+.heading-title{
+  font-weight: var(--global-font-weight2);
+  text-transform: none;
+  line-height: 1.4em;
+}
+section p{
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1.45em;
+  margin-bottom: 1.5em!important;
+  color: #1D242D;
+}
+.bg-image-section{
+  background: url(https://box12fitness.co.uk/wp-content/uploads/2019/11/BOX12-Website-Banners-Home.jpg) 50% 50%;
+  background-size: cover;  
+  min-height: 550px;
+}
+.hero-text{
+  max-width: 850px;
+}
+.hero-text h2{
+  line-height: 1;
+  font-size: var(--global-font-heading2);
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.services{
+  padding-top: 60px;
+  background-color: white;
+}
+.content-box{
+  max-width: 1000px;
+}
+.icon-box{
+  padding: 30px;
+}
+.icon-box p {
+  color: var(--global-color-text);
+}
+.icon-box svg{
+  height: 70px;
+  fill: #b09a65;
+  color: #b09a65;
+  border-color: #b09a65;
+}
+.icon-box i{
+  font-size: 75px;  
+}
+.bronze-color{
+  color: var(--global-accent-color);
+}
+.video{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.book-description{
+  max-width: 550px;
+}
+.book-title{
+  color: var(--primary);
+}
+.book_free{
+  background-color: var(--global-banner-color);
+  padding: 60px;
+  color: var(--primary);
+}
+.book-font{
+  font-size: var(--global-font-heading3);
+  font-weight: var(--global-font-weight1);
+  text-transform: none;
+  line-height: 1.4em;
+  color: var(--primary);
+}
+.btn_book{
+  font-size: 20px;
+  text-transform: uppercase;
+  fill: var(--global-accent-color);
+  color: var(--global-accent-color);
+  background-color: rgba(0, 0, 0, 0);
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: var(--global-accent-color);
+  border-radius: 0px 0px 0px 0px;
+  padding: 13px 40px 13px 40px;
+}
+.btn_book:hover{
+  color: var(--primary);
+  border-color: var(--primary);
+  transition: all .3s;
+}
+.box12_expe_swiper .prev-slide, .box12_expe_swiper .next-slide{
+  background-color: var(--primary);
+  color: white;
+  border-radius: 50%;
+  font-size: 22px;
+  padding: 22px;
+}
+.box12_expe_swiper .swiper-button-next:after, 
+.box12_expe_swiper .swiper-button-prev:after{
+  content: '';
+}
+.box12_expe_swiper .swiper-pagination-bullet-active{
+  background: black;
+}
+#our_workouts{
+  border-style: solid;
+  border-width: 10px 0px 0px 0px;
+  border-color: #b89f65;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  padding: 0px 0px 0px 0px
+}
+#our_workouts .btn_findout{
+  font-size: 20px;
+  text-transform: uppercase;
+  fill: white;
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: white;
+  border-radius: 0px 0px 0px 0px;
+  padding: 13px 40px 13px 40px;
+}
+#our_workouts .btn_findout:hover{
+  color: var(--global-accent-color);
+  border-color: var(--global-accent-color);
+}
+.bg-image-workouts{
+  background-image: url(https://box12fitness.co.uk/wp-content/uploads/2019/08/shutterstock_674504926-Final.jpg);
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.our_workouts-overlay{
+  background-image: url(https://box12fitness.co.uk/wp-content/uploads/2019/08/BELIEVEACHIEVEREWARD-e1565283100206.png);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  opacity: 0.08;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+.our_worksouts_container{
+  min-height: 1060px;
+  max-width: 1140px;
+}
+.max-content-width{
+  max-width: 1140px;
+}
+.bg-image-whybox12{
+  background: url("https://box12fitness.co.uk/wp-content/uploads/2020/02/BOX12-Facility.jpg")50% 50%;
+  background-size: cover;  
+  min-height: 800px;
+}
+.why_box12-overlay{
+  background-color: #000000;
+  opacity: 0.55;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+#why_box12 .icon{
+  border: 3px solid #b09a65;
+  border-radius: 50%;
+  padding: 20px;
+}
+.box12-para{
+  font-size: 23px;
+  font-weight: 300;
+  text-transform: none;
+  line-height: 1.4em;
+}
+/* ------------------------------
+  Why BOX12 page
+---------------------------------*/
+.why_box12_section{
+  background-color: #f9f9f9;
+  background-image: url(https://box12fitness.co.uk/wp-content/uploads/2019/11/BOX12-X-White.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 40% auto;
+}
+.why-content-box{
+  max-width: 850px;
+  min-height: 350px;
+}
+/* ------------------------------
+  Group Exercise
+---------------------------------*/
+.bg-image-group{
+  background-color: #f9f9f9;
+  background-image: url(https://box12fitness.co.uk/wp-content/uploads/2019/11/BOX12-X-White.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 40% auto;
+}
+h5.timetable{
+  border-bottom: 1px solid #B89F65;
+}
+/* ------------------------------
+  join page
+---------------------------------*/
+.bookcamp .price-bar{
+  font-size: 32px;
+  line-height: 1;
+  margin: 0;
+  margin-bottom: 10px;
+}
+.btn_buy_now{
+  font-size: 16px;
+  padding: 15px 30px;
+  background-color: #B89F65;
+  color: white;
+  width: 220px;
+  display: flex;
+}
+.btn_buy_now:hover{
+  background-color: #ffffff;
+  color: #b89f65;
+  border: 1px solid #b89f65;
+}
+.btn_buy_now:hover{
+  background-color: #F4F4F6;
+  color: #1D242D;
+}
+.pp-pricing-table-head {
+  background: #7a7a7a;
+  padding: 48px;
+}
+.pp-pricing-table-subtitle {
+  color: #b89f65;
+  font-size: 40px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+.pp-pricing-table-price, .pp-pricing-table-price-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  color: #1d241d;
+}
+.pp-pricing-table-price {
+  font-family: "brandon-grotesque", Sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  background-color: #f4f5f7;
+  border-style: solid;
+  border-width: 0px 0px 2px 0px;
+  border-color: #b89f65;
+}
+.pp-pricing-table-price-prefix {
+  align-self: flex-start;
+  font-size: .4em;
+  line-height: 1;
+  text-align: left;
+}
+.pp-pricing-table .pp-pricing-table-price-value {
+  line-height: .9;
+}
+.pp-pricing-table-price-value {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.pp-pricing-table-price-duration-wrap 
+.pp-pricing-table-price-duration {
+  text-align: center;
+  width: 100%;
+}
+.pp-pricing-table-after-part {
+  font-size: .4em;
+  line-height: 1;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+}
+.pp-pricing-table .pp-pricing-table-price-duration, 
+.pp-pricing-table .pp-pricing-table-price-prefix {
+  font-size: .4em;
+  line-height: 1;
+  text-align: left;  
+}
+.pp-pricing-table-price-duration-wrap 
+.pp-pricing-table-price-duration {
+  text-align: center;
+  width: 100%;
+}
+.pp-pricing-table-price{
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+}
+.pp-pricing-table {
+  overflow: hidden;
+  text-align: center;
+  -webkit-transition: all .25s linear 0s;
+  transition: all .25s linear 0s;
+}
+.pp-pricing-table-features {
+  text-align: center;
+  padding: 0px 0px 20px 0px;
+  font-size: 18px;
+  font-weight: 400;
+  background-color: #f4f4f6;
+}
+.pp-pricing-table-footer {
+  padding: 30px 30px 30px 30px;
+  background-color: #f4f4f6;
+}
+.pp-pricing-table-features {
+  text-align: center;
+  padding: 0px 0px 20px 0px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.pp-pricing-table-features li {
+  padding: 20px 0px 20px 0px;
+}
+.pp-pricing-table-feature-content {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #1d241d;
+}
+.pp-pricing-table-fature-icon {
+  margin-right: 5px;
+}
+.pp-icon i, .pp-icon svg {
+  width: 1em;
+  height: 1em;
+  position: relative;
+  display: block;
+  color: white;
+}
+.pp-pricing-table-head {
+  background-color: #f4f4f6;
+}
+.pp-icon{
+  font-size: 19px;
+  background: #1d241d;
+  border-radius: 50%;
+  padding: 1px;
+}
+.discount .pp-pricing-table-head{
+  background: #1d241d;
+}
+.google_map_section{
+  padding-top: 0px;
+}
+/* ------------------------------
+  news page
+---------------------------------*/
+#blog .card-body{
+  padding: 0;  
+  border: none;
+}
+#blog .card{
+  border-radius: 0px;
+  border: 0px;
+}
+/* ------------------------------
+  contact page
+---------------------------------*/
+.content-map iframe{
+  min-width: 450px;
+}
+#contact_us .form-control:focus{  
+  border-color: #1D242D;
+  box-shadow: none;
+}
+#contact_us .btn_buy_now{
+  border: 1px solid red;
+  border-radius: 0px;
+}
+/* ------------------------------
+  footer
+---------------------------------*/
+.main-footer a, p.opening_info{
+  color: #b89f65;
+}
+.main-footer .social-link li a{
+  background-color: #b89f65;
+  padding: 10px;
+  border-radius: 50%;
+}
+.main-footer a:hover{
+  color: #336;
+}
+footer {
+  padding: 35px 0 35px;
+  font-size: 16px;
+  font-weight: 500;
+  background: #B89F65;
+  color: #090909;
+}
+footer ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+footer ul li a i {
+  font-size: 20px;
+  color: #090909;
+}
+footer .cp {
+  text-align: right;
+}
+.main-footer{
+  background-image: url(https://box12fitness.co.uk/wp-content/uploads/2019/08/Group-55.png);
+  background-position: top right;
+  background-repeat: no-repeat;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  height: 550px;
+  overflow: hidden;
+  background-color: #0e1927;
+}
+/* ------------------------------
+  responsive
+---------------------------------*/
+@media (max-width: 991px) {
+  .navbar .navbar-collapse {
+    background: #090909;
+    padding-bottom: 25px;
+  }
+
+  .navbar .button-navbar {
+    display: none;
+  }
+
+  .navbar .container {
+    background: #090909;
+  }
+
+  .intro .col-md {
+    flex: 100%;
+  }
+
+  .pricing .col-md-left {
+    flex: 100%;
+  }
+
+  .contact .open {
+    padding-top: 33%;
+  }
+}
+@media (max-width: 767px) {
+  .about h2 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .about .content-left img {
+    margin-top: 30px;
+  }
+
+  .testimonial .swiper .content {
+    padding: 0 12%;
+  }
+
+  .contact h2 {
+    margin-top: 30px;
+  }
+
+  .contact .open {
+    padding-top: 5%;
+  }
+}
+@media (max-width: 575px) {
+  .container {
+    padding: 0 25px;
+  }
+
+  .navbar .navbar-collapse {
+    padding-top: 30px;
+  }
+
+  h1 {
+    line-height: 48px;
+    font-size: 39px;
+  }
+
+  .intro .entry {
+    padding: 0;
+  }
+
+  .about {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .gallery .divider {
+    display: none;
+  }
+
+  .contact .open {
+    padding-top: 8%;
+  }
+
+  footer {
+    text-align: center;
+  }
+  footer .cp {
+    text-align: center;
+    margin-top: 15px;
+  }
+  .main-footer{
+    height: auto;
+  }
+}

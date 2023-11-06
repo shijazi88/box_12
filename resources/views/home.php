@@ -15,14 +15,13 @@
 		
 		<!-- loader -->
 		<div class="loader">
-	      	<div class="loading">
-		        <div class="spinner-grow aloader" role="status">
-		      		<span class="sr-only"></span>
-		    	</div>
-		    </div>
-	    </div>
+				<div class="loading">
+					<div class="spinner-grow aloader" role="status">
+						<span class="sr-only"></span>
+				</div>
+			</div>
+		</div>
 		<!-- end loader -->
-
 
 		<!-- navbar -->
 		<div id="navbar" class="navbar navbar-expand-lg justify-content-center align-items-center navbar-fixed">
@@ -54,7 +53,6 @@
 		</div>
 		<!-- end navbar -->
 
-
 		<!-- intro -->
 		<div id="home" class="intro">
 			<div class="container">
@@ -65,7 +63,7 @@
 								<span>Fitness and gym center</span>
 								<h1>Make your body healthy and muscular</h1>
 								<div class="entry">
-									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quae unde vitae hic impedit voluptate labore quam aliquam.</p>
+									<p>Coming soon...</p>
 									<button class="button">Get Started</button>
 								</div>
 								</ul>
@@ -681,6 +679,7 @@
 			</div>
 		</div>
 		<!-- end latest news -->
+
 		<!-- contact -->
 		<div id="contact" class="contact">
 			<div class="container">
@@ -733,7 +732,6 @@
 		</div>
 		<!-- end contact -->
 		
-
 		<!-- testimonial -->
 		<div id="testimonial" class="testimonial">
 			<div class="container">
@@ -781,9 +779,7 @@
 				</div>
 			</div>
 		</div>
-		<!-- end testimonial -->
-
-		
+		<!-- end testimonial -->		
 
 		<!-- footer -->
 		<footer>
@@ -806,15 +802,16 @@
 			</div>
 		</footer>
 		<!-- end footer -->
-
+		<!-- scroll to top bar -->
+		<a href="https://wa.me/0112635595?text=Can you help me with" class="scroll-to-top" target="_blank">
+			<i class="lab la-whatsapp"></i>
+		</a>
 		<!-- script -->
 		<script src="js/jquery.min.js"></script>
 		<script src="js/bootstrap.bundle.min.js"></script>
 		<script src="js/jquery.filterizr.min.js"></script>
 		<script src="js/magnific-popup.min.js"></script>
 		<script src="js/swiper.min.js"></script>
-		<script src="js/main.js"></script>
-		
-		
+		<script src="js/main.js"></script>		
 	</body>
 </html>

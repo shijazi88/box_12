@@ -977,6 +977,36 @@ h5.timetable{
   border-radius: 0px;
 }
 /* ------------------------------
+  Scroll to Top
+---------------------------------*/
+.scroll-to-top:hover{
+  background-color: #B89F65;
+  box-shadow: none;
+  color: white;
+}
+.scroll-to-top {
+  background-color: #B89F65;
+  border: none;
+  border-radius: 50%;
+  bottom: 53px;
+  color: #000;
+  cursor: pointer;
+  display: none;
+  font-size: 22px;
+  height: 50px;
+  line-height: 50px;
+  position: fixed;
+  right: 50px;
+  text-align: center;
+  width: 50px;
+  z-index: 100;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+/* ------------------------------
   footer
 ---------------------------------*/
 .main-footer a, p.opening_info{

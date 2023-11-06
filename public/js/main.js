@@ -112,4 +112,13 @@
 
   });
 
+  // Scroll Top Hide Show
+  var varWindow = $(window);
+  varWindow.on('scroll', function(){    
+    if ($(this).scrollTop() > 250) {
+      $('.scroll-to-top').fadeIn();
+    } else {
+      $('.scroll-to-top').fadeOut();
+    }
+  });  
 })();

@@ -121,7 +121,7 @@ img {
   button
 ---------------------------------*/
 .button {
-  padding: 12px 30px;
+  padding: 12px 25px;
   background: #B89F65;
   color: #090909;
   font-size: 13px;
@@ -179,12 +179,12 @@ img {
 }
 .navbar .navbar-collapse {
   position: relative;
-  width: 60%;
+  width: 100%;
   text-align: center;
-  left: -10px;
+  /* left: -10px; */
 }
 .navbar .navbar-nav li {
-  padding: 0 10px;
+  padding: 0 1px;
 }
 .navbar .navbar-nav li a {
   color: #ffffff;
@@ -203,7 +203,7 @@ img {
   margin-right: -15px;
 }
 .navbar .button-navbar {
-  width: 20%;
+  width: 14%;
   float: right;
   text-align: right;
 }
@@ -242,12 +242,36 @@ img {
   letter-spacing: 1px;
   color: #B89F65;
 }
-
+/* ------------------------------
+membership
+---------------------------------*/
+.membership .content {
+  border: 2px solid #B89F65;
+  padding: 35px;
+}
+.membership h2.member-title{
+  text-align: center;
+  background: #090909;
+  display: inline-block;
+  padding: 50px 25px;
+  margin: auto;
+  left: 50%;
+  position: relative;
+  z-index: 1;
+  transform: translate(-50%);
+}
+.membership .divider {
+height: 5px;
+width: 100%;
+background: #B89F65;
+position: relative;
+top: -84px;
+}
 /* ------------------------------
   about
 ---------------------------------*/
 .about {
-  padding-top: 120px;
+  padding-top: 100px;
 }
 .about h2 {
   padding-left: 100px;
@@ -267,7 +291,7 @@ img {
 gallery
 ---------------------------------*/
 .gallery {
-  padding-top: 120px;
+  padding-top: 74px;
 }
 .gallery h2 {
   text-align: center;
@@ -292,7 +316,7 @@ gallery
   pricing
 ---------------------------------*/
 .pricing {
-  padding-top: 140px;
+  padding-top: 109px;
 }
 .pricing .content {
   border: 2px solid #B89F65;
@@ -420,6 +444,9 @@ section{
 .mt-20{
   margin-top: 20px;
 }
+.mt-40{
+  margin-top: 40px;
+}
 .mb-20{
   margin-bottom: 20px;
 }
@@ -435,11 +462,26 @@ section{
 .pb-60{
   padding-bottom: 60px;
 }
+.pt-40{
+  padding-top: 40px;
+}
+.pt-47{
+  padding-top: 47px;
+}
+.pt-51{
+  padding-top: 51px;
+}
 .pt-60{
   padding-top: 60px;
 }
+.pt-74{
+  padding-top: 74px;
+}
 .pt-90{
   padding-top: 90px;
+}
+.pt-120{
+  padding-top: 120px;
 }
 .p-10{
   padding:10px
@@ -662,8 +704,11 @@ section p{
   line-height: 1.4em;
 }
 /* ------------------------------
-  Why BOX12 page
+  Why BOX12 section
 ---------------------------------*/
+.why_box12{
+  padding-top: 50px;
+}
 .why_box12_section{
   background-color: #f9f9f9;
   background-image: url(https://box12fitness.co.uk/wp-content/uploads/2019/11/BOX12-X-White.png);
@@ -671,13 +716,48 @@ section p{
   background-repeat: no-repeat;
   background-size: 40% auto;
 }
+.why_box12 h2{
+    text-align: center;
+    background: #090909;
+    display: inline-block;
+    padding: 50px 25px;
+    margin: auto;
+    left: 50%;
+    position: relative;
+    z-index: 1;
+    transform: translate(-50%);
+}
+.why_box12 .divider {
+  height: 5px;
+  width: 100%;
+  background: #B89F65;
+  position: relative;
+  top: -84px;
+}
 .why-content-box{
-  max-width: 850px;
-  min-height: 350px;
+  max-width: 850px;  
 }
 /* ------------------------------
   Group Exercise
 ---------------------------------*/
+.group_exercise h2{
+    text-align: center;
+    background: #090909;
+    display: inline-block;
+    padding: 25px 25px;
+    margin: auto;
+    left: 50%;
+    position: relative;
+    z-index: 1;
+    transform: translate(-50%);
+}
+.group_exercise .divider {
+  height: 5px;
+  width: 100%;
+  background: #B89F65;
+  position: relative;
+  top: -84px;
+}
 .bg-image-group{
   background-color: #f9f9f9;
   background-image: url(https://box12fitness.co.uk/wp-content/uploads/2019/11/BOX12-X-White.png);
@@ -851,6 +931,29 @@ h5.timetable{
 /* ------------------------------
   news page
 ---------------------------------*/
+.latest_news h2{
+    text-align: center;
+    background: #090909;
+    display: inline-block;
+    padding: 50px 25px;
+    margin: auto;
+    left: 50%;
+    position: relative;
+    z-index: 1;
+    transform: translate(-50%);
+}
+.latest_news .divider {
+  height: 5px;
+  width: 100%;
+  background: #B89F65;
+  position: relative;
+  top: -84px;
+}
+.latest_news .card,
+.latest_news .card-img, .latest_news .card-img-top{
+  border-radius: 0px;
+  background-color: transparent;
+}
 #blog .card-body{
   padding: 0;  
   border: none;
@@ -969,7 +1072,9 @@ footer .cp {
   .container {
     padding: 0 25px;
   }
-
+  .content-map iframe{
+    min-width: auto;
+  }
   .navbar .navbar-collapse {
     padding-top: 30px;
   }
@@ -1005,5 +1110,14 @@ footer .cp {
   }
   .main-footer{
     height: auto;
+  }
+  h2{
+    font-size: 35px;
+  }
+  .membership .content{
+    padding: 18px;
+  }
+  .discount .pp-pricing-table-head{
+    padding: 18px;
   }
 }

@@ -150,19 +150,19 @@ img {
   text-align: center;
 }
 .navbar .container {
-  padding-top: 25px;
-  padding-bottom: 25px;
   border-bottom: 1px solid #B89F65;
+  padding: 23px;
 }
 .navbar .navbar-brand {
   text-align: left;
   width: 18%;
+  padding: 0;
 }
 .navbar .navbar-brand img {
   height: 45px;
   width: auto;
-  position: relative;
-  top: -4px;
+  /* position: relative;
+  top: -4px; */
 }
 .navbar .navbar-brand:hover {
   color: #ffffff;
@@ -286,7 +286,15 @@ top: -84px;
 .about .content-right .button {
   margin-top: 20px;
 }
-
+.about-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 45px;
+  text-align: center;
+}
+.about-body-container{
+  max-width: 950px;
+}
 /* ------------------------------
 gallery
 ---------------------------------*/
@@ -312,6 +320,56 @@ gallery
   top: -84px;
 }
 
+.workouts .swiper-pagination-bullet-active{
+  background: white;
+}
+.workouts .swiper-pagination-bullet{
+  background: #B89F65;
+}
+.workouts h2{
+  text-align: center;
+  background: #090909;
+  display: inline-block;
+  padding: 50px 25px;
+  margin: auto;
+  left: 50%;
+  position: relative;
+  z-index: 1;
+  transform: translate(-50%);
+}
+.workouts .divider {
+height: 5px;
+width: 100%;
+background: #B89F65;
+position: relative;
+top: -84px;
+}
+.why-content-box{
+max-width: 850px;  
+}
+.workouts .swiper-button-next, 
+.workouts .swiper-button-prev{
+  color: #fff;
+    background-image: none;
+}
+.workouts .flexslider{
+  background: transparent;
+  border: none;
+}
+.workouts .flex-direction-nav a.flex-prev:before{
+  content: "";
+  background-image: url(../img/next-btn.png);
+  width: 23px;
+  height: 45px;
+  background-repeat: no-repeat;
+}
+.workouts .flex-direction-nav a.flex-next:before{  
+  content: "";
+  background-image: url(../img/prev-btn.png);
+  width: 23px;
+  height: 45px;
+  background-repeat: no-repeat;
+}
 /* ------------------------------
   pricing
 ---------------------------------*/
@@ -1050,6 +1108,11 @@ footer .cp {
 /* ------------------------------
   responsive
 ---------------------------------*/
+@media (max-width: 1199px) {
+  h2{
+    font-size: 37px;
+  }
+}
 @media (max-width: 991px) {
   .navbar .navbar-collapse {
     background: #090909;
@@ -1081,7 +1144,12 @@ footer .cp {
     padding-left: 0;
     padding-right: 0;
   }
-
+  .about-container{
+    margin-top: 0px;
+  }
+  .about .content-right img{
+    margin-bottom: 0;
+  }
   .about .content-left img {
     margin-top: 30px;
   }
@@ -1096,6 +1164,23 @@ footer .cp {
 
   .contact .open {
     padding-top: 5%;
+  }
+  .about-content{
+    padding: 20px;
+    border-top: 1px solid #B89F65;
+    border-bottom: 1px solid #B89F65;
+  }
+  .icon-box{
+   padding: 15px 20px; 
+  }
+  .pt-74{
+    padding-top: 10px;
+  }
+  .pt-51{
+    padding-top: 0px;
+  }
+  .contact{
+    padding-top: 50px;
   }
 }
 @media (max-width: 575px) {

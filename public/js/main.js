@@ -39,7 +39,7 @@
   // swiper slider
   $(document).ready(function () {
     var swiper = new Swiper(".mySwiper", {
-      slidesPerView: 1,
+      slidesPerView: 3,
       spaceBetween: 30,
       pagination: {
         el: ".swiper-pagination",
@@ -57,11 +57,50 @@
           slidesPerView: 1,
         },
         780: {
-          slidesPerView: 1,
+          slidesPerView: 3,
         }
       }
     });
 
+    var aboux_box12 = new Swiper(".about-box12-slider", {      
+      slidesPerView: 2,
+      spaceBetween:10,      
+      effect: 'fade',
+      fadeEffect: {
+        crossFade: true,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {                           
+        nextEl: ".swiper-button-next",      
+        prevEl: ".swiper-button-prev",      
+      }, 
+      breakpoints: {
+        1200:{
+            slidesPerView : 2
+        },
+
+        992:{
+            slidesPerView : 2
+        },
+
+        768:{
+            slidesPerView : 2
+
+        },
+
+        576:{
+            slidesPerView : 1
+        },
+
+        0:{
+            slidesPerView : 1
+        }
+      }
+    });
+    
     // box12 experience slider
     var swiper = new Swiper(".box12_expe_swiper", {
       slidesPerView: 3,
@@ -120,5 +159,17 @@
     } else {
       $('.scroll-to-top').fadeOut();
     }
+    $('.flexslider').flexslider({
+      animation: "slide",
+      animationLoop: true,
+      itemWidth: 300, // Set the width of each item
+      itemMargin: 10, // Set the space between each item
+      minItems: 2, // Set the minimum number of items to display
+      maxItems: 2, // Set the maximum number of items to display      
+      touch: true, // Enable touch moving      
+      start: function(slider){
+        $('body').removeClass('loading');
+      }
+    });
   });  
 })();

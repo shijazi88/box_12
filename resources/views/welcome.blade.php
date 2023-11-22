@@ -60,6 +60,7 @@
 					<div class="row align-items-center">
 						<div class="col-md">
 							<div class="content-text">
+							<li><button class="button">{{ __('Welcome to our website!') }}Join Now</button></li>
 								<span>Fitness and gym center</span>
 								<h1>Make your body healthy and muscular</h1>
 								<div class="entry">

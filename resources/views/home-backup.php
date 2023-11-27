@@ -106,7 +106,7 @@
 									</svg>
 								</div>
 								<p class="text-white">
-									You will be guided by our experienced trainers who will inspire you to achieve and learn the basics of boxing and fitness with functional exercises.
+									{{__('You_will_be_guided_exercises')}}
 								</p>	
 							</div>																							
 						</div>
@@ -118,7 +118,7 @@
 									</svg>
 								</div>
 								<p class="text-white">
-									A round starts every 3 minutes, there is no need to depend on anyone else, you just need to show up whenever you want and start in the first round
+									{{__('A_round_starts_every_minutes_round')}}
 								</p>
 							</div>							
 						</div>
@@ -130,7 +130,7 @@
 									</svg>
 								</div>
 								<p class="text-white">
-									You will notice that our exercises work at about 80-90% of your physical capacity and burn between 500 and 700 calories. 
+								{{__('You_will_notice_calories')}}
 								</p>
 							</div>							
 						</div>
@@ -200,7 +200,7 @@
 				<div class="why-content-box mx-auto">
 					<div class="section-title text-center">						
 						<h3 class="text-center white">
-							Our exercises are pre-determined with well-planned programs that regularly come from the UK
+							{{__('Our_exercises_are_UK')}}
 						</h3>
 					</div>					
 				</div>
@@ -321,7 +321,7 @@
 										</svg>
 									</div>							
 									<p class="text-white">
-										Varied experiences for every day of the week
+										{{__('Varied_experiences_week')}}
 									</p>
 								</div>
 							</li>
@@ -344,7 +344,7 @@
 								<h4 class="custom-color2">ABS BLAST</h4>
 							</div> 
 							<p class="text-white">
-								This 30 minute workout is specifically designed to concentrate on the core abdominal area. Its focus on core strength will help to improve posture, your training technique and your body shape. It’s an easy to follow but intense workout that will take you through a brief warm-up before moving to mat work for familiar and not-so-familiar exercises!
+								{{__('This_30_minute_workout_not-so-familiar_exercises')}}
 							</p>
 						</div>
 					</div>
@@ -355,7 +355,7 @@
 								<h4 class="custom-color2">BODY FUSION</h4>
 							</div> 
 							<p class="text-white">
-								Body Fusion will define every inch of your body! Sweat, Stretch and Strengthen – all in one low-impact, music driven, body-sculpting workout. No weights! No jumps! Just hardcore results, no matter your fitness level.  Improve your posture, your muscle coordination, flexibility, cardiovascular strength and sense of well-being.
+								{{__('Body_Fusion_will_define_every_inch_of_sense_well-being')}}
 							</p>
 						</div>
 					</div>
@@ -366,7 +366,7 @@
 								<h4 class="custom-color2">META BOX</h4>
 							</div> 
 							<p class="text-white">
-								This new high-energy, boxing-inspired class will leave you feeling exhilarated and fully charged! Using a metabolic training system and non-contact boxing techniques, this-45 minute class caters for all and will equip you with a new and dynamic skillset. Hold on tight as you rip into those combos and smash through the functional exercises. This fast-paced class will blow your mind while challenging every inch of your body.
+								{{__('This_new_high-energy_your_mind_every_inch_of_your_body')}}	
 							</p>
 						</div>
 					</div>						
@@ -377,7 +377,7 @@
 								<h4 class="custom-color2">HIIT</h4>
 							</div> 
 							<p class="text-white">
-								Our HIIT workouts alternate between intense bursts of activity and periods of less intense or complete rest! So, if you’re looking to increase your metabolism, burn fat not muscle, and are looking for a workout that will challenge you, get to one of our HIIT classes!
+								{{__('Our_HIIT_workouts_alternate_our_HIIT_classes')}}
 							</p>
 						</div>
 					</div>
@@ -388,7 +388,7 @@
 								<h4 class="custom-color2">LEGS BUMS & TUMS</h4>
 							</div> 
 							<p class="text-white">
-								This class is designed to tone and shape those stubborn areas! It involves a series of leg, glute and core exercises, and can be done with or without a resistance band. The class will strengthen, tone and burn fat from your thighs, hips, tummy and bottom, as well as leaving you feeling energised!
+								{{__('This_class_feeling_energised')}}
 							</p>
 						</div>
 					</div>
@@ -399,7 +399,7 @@
 								<h4 class="custom-color2">STRETCH & RECOVERY</h4>
 							</div> 
 							<p class="text-white">
-								How often do you stretch after your workouts? It is vital, yet aften neglected. So our Stretch & Recovery class will lengthen those muscles; increasing your flexibility as well as mobility.									
+								{{__('How_often_mobility')}}				
 							</p>
 						</div>
 					</div>	
@@ -409,7 +409,7 @@
 								<h4 class="custom-color2">LIFT</h4>
 							</div> 
 							<p class="text-white">
-								In this functional and strength training workout you’ll use resistance equipment to perform body sculpting movements that hit every major muscle group.
+								{{__('In_this_functional_major_muscle_group')}}
 							</p>
 						</div>
 					</div>
@@ -419,7 +419,7 @@
 								<h4 class="custom-color2">BOX12BURNER</h4>
 							</div> 
 							<p class="text-white">
-								This small group circuit class is designed to push you out of your comfort zone… it’ll scorch those calories! The variety of functional, resistance and cardio rounds will hit every muscle and sculpt the whole body!
+								{{__('This_small_group_circuit_whole_body')}}
 							</p>
 						</div>
 					</div>
@@ -429,7 +429,7 @@
 								<h4 class="custom-color2">HATTON BOXING CLASS</h4>
 							</div> 
 							<p class="text-white">
-								Take your skills from the bag to the pads for a more authentic boxing feel. Learn and develop new and exciting combinations as well as improving technique, fitness and coordination.
+								{{__('Take_your_skills_fitness_and_coordination')}}
 						</div>
 					</div>	
 					<div class="col-lg-4 col-md-6 d-flex align-items-stretch">
@@ -438,7 +438,7 @@
 								<h4 class="custom-color2">STEP HIIT</h4>
 							</div> 
 							<p class="text-white">
-								This 30 minute high intensity interval training class will push you, challenge you and leave you feeling great! It’ll improve strength, power and burn those calories! All with a step box and body weight exercises.
+								{{__('This_30_minute_improve_strength_exercises')}}
 							</p>
 						</div>
 					</div>

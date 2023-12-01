@@ -27,3 +27,7 @@ Route::get('language/{locale}', function ($locale) {
 
     return redirect()->back();
 });
+
+Route::get('/policy', function () {    
+    return view('policy');
+})->name('policy');

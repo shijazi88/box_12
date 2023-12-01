@@ -694,7 +694,7 @@ section p{
   font-size: 20px;
   line-height: 1.45em;
   margin-bottom: 1.5em!important;
-  color: #1D242D;
+  color: white;
 }
 .bg-image-section{
   background: url(https://box12fitness.co.uk/wp-content/uploads/2019/11/BOX12-Website-Banners-Home.jpg) 50% 50%;
@@ -929,7 +929,92 @@ section p{
 h5.timetable{
   border-bottom: 1px solid #B89F65;
 }
+/* ------------------------------
+  Policy page
+---------------------------------*/
+.policy_section{
+  padding-top: 150px;
+  padding-bottom: 80px;
+}
 
+.policy_section .accordion-list ul {
+  padding: 0;
+  list-style: none;
+}
+
+.policy_section .accordion-list li+li {
+  margin-top: 15px;
+}
+
+.policy_section .accordion-list li {
+  padding: 20px;
+  background: transparent;
+  position: relative;
+  border: 2px solid #B89F65;
+  color: white;
+}
+
+.policy_section .accordion-list a {
+  display: block;
+  position: relative;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 500;
+  padding: 0 30px;
+  outline: none;
+  color: #B89F65;
+  cursor: pointer;
+}
+.policy_section .accordion-list p{
+  font-size: 16px;
+}
+.policy_section .accordion-list .icon-help {
+  font-size: 20px;
+  position: absolute;
+  right: 0;
+  left: 20px;
+  color: #B89F65;
+}
+
+.policy_section .accordion-list .icon-show,
+.policy_section .accordion-list .icon-close {
+  font-size: 24px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.policy_section .accordion-list p {
+  margin-bottom: 0;
+  padding: 10px 0 0 0;
+}
+
+.policy_section .accordion-list .icon-show {
+  display: none;
+}
+
+.policy_section .accordion-list a.collapsed {
+  color: white;
+}
+
+.policy_section .accordion-list a.collapsed:hover,
+.policy_section .accordion-list a:hover {
+  color: #B89F65;
+}
+
+.policy_section .accordion-list a.collapsed .icon-show {
+  display: inline-block;
+}
+
+.policy_section .accordion-list a.collapsed .icon-close {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  .policy_section .accordion-list {
+    padding: 0;
+  }
+}
 /* ------------------------------
   subscriptions page
 ---------------------------------*/

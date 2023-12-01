@@ -39,6 +39,7 @@
 							<li class="nav-item"><a class="nav-link" href="#subscriptions">{{__('subscriptions')}}</a></li>
 							<li class="nav-item"><a class="nav-link" href="#workouts">{{__('Our Workouts')}}</a></li>
 							<li class="nav-item"><a class="nav-link" href="#group_exercise">{{__('group exercise')}}</a></li>							
+							<li class="nav-item"><a class="nav-link" href="{{route('policy')}}">{{__('Policy')}}</a></li>
 						</ul>
 			    </div>					
 					@include('partials/language_switcher')
